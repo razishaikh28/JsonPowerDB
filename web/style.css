@@ -1,0 +1,122 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/*
+    Created on : 30-Oct-2021, 3:19:50 pm
+    Author     : Dell
+*/
+
+body{
+    /*text-align:center;*/
+    background:#FF3CAC;
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-label{
+    font-size: large;
+    color: white;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #35c5a5;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(41 207 118 / 25%);
+}
+
+h1{
+    text-shadow: 1px 4px 6px #31787880;
+    font-family: 'Rampart One', cursive;
+    font-size: xxx-large;
+    color: white;
+}
+
+
+.itemButton {
+    background:#0bb4a6;
+    margin-left: 2px;
+    color:#fff;
+    display:inline-block;
+    text-decoration:none;
+    height:45px;
+    line-height:48px;
+    padding:0 25px;
+    border-radius:2px;
+    border-bottom:3px solid #07736a;
+    font-size:14px;
+    font-weight: 800;
+    letter-spacing:0.08em;
+    float:right;
+}
+.itemButton:hover{
+    border-bottom:5px solid #07736a;
+    position:relative;
+    top:-2px;
+    background:#0fbbad;
+}
+.itemButton:active{
+    border-bottom:3px solid #07736a;
+    position:relative;
+    top:0px;
+}
+
+#main-body{
+    margin: 100px;
+    padding: 40px;
+    border: solid 7px black;
+}
+
+.btn{
+    box-shadow: 1px 3px 2px 2px rgb(1 1 1 / 50%);
+    background:#0bb4a6;
+}
+
+span{
+    font-size:24px;
+    font-weight:800;
+    color:#e148ab;
+    float:left;
+    line-height:48px;
+    padding:0 0 0 5px;
+    display:inline-block;
+    width:160px;
+}
+
+b{
+    float:left;
+    line-height:48px;
+    font-weight:600;
+    color:#0bb4a6;
+    font-size:28px;
+    padding:0 0 0 25px;
+    display:inline-block;
+    width:50px;
+}
+i{
+    font-style:normal;
+    font-size:20px;
+    position:relative;
+    top:-5px;
+    left:-4px;
+    opacity:0.6
+}
+
+.item{
+    font-family: 'Montserrat', sans-serif;
+    background:black;
+    width:100%;
+    margin:0 auto;
+    text-align:left;
+    padding:20px;
+    box-shadow:5px 4px 3px 2px rgb(1 1 1 / 50%);
+    height: 90px;
+    margin-bottom:10px;
+    border-radius:2px;
+}
+.item:nth-child(even){
+    background:#fafafa
+}
